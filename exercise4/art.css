@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+      background-color: #998d8d;
+      padding: 200px;
+
+
+      
+}
+section {
+         width: 1200px;
+         position: relative; 
+         margin: 0 auto;
+    
+}
+.cover1 {
+         background-color: white;
+         height: 505px;
+         width: 50%;
+         float: left;
+         
+         
+}
+.cover2 {
+         background-color: #56bb6f; 
+         width: 50%;
+         float: left;
+ 
+}
+.img {
+      padding-left: 110px; 
+      
+}
+
+      nav {
+            width : 250px;
+            position: relative;
+            top: -40px;
+            left: 280px;
+            margin-bottom: 250px;
+      } 
+nav ul {
+        display: inline;
+       
+        
+}
+
+nav ul li {
+           list-style-type: none;
+           display: inline;
+           padding: 10px;
+           
+           
+           
+}
+nav ul li a { 
+             text-decoration: none;
+             font-size: 8px;
+             color: #1f211f;
+}
+.theme { 
+        font-weight: 700;
+        color: #777c77;
+        position: relative;
+        width: 350px;
+        font-size: 18px;
+        padding: 30px;
+        display: block;
+        margin: 0 auto;
+        
+}

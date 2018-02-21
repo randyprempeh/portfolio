@@ -1,0 +1,64 @@
+body {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom:50px;
+      background: linear-gradient(445deg, #006ac5, #49e46a);
+
+
+}
+
+article {
+         background-color: white;
+         width: 700px;
+         padding: 50px;
+         position: relative;
+         margin-left: auto;
+         margin-right: auto;
+         
+    
+}
+.img {
+      background-color: #deeef5; 
+      padding: 50px 45px 0 55px;
+}
+article h5 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+
+}
+article h5 a {
+              text-decoration: none;
+              color: gray;
+
+}
+article h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: regular;
+            color: gray;
+
+}
+article p {
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 12px;
+           font-weight: bold;
+           color: gray;
+
+
+}
+
+article button {
+        
+                padding: 10px;
+                background-color: rgba(30, 148, 194, 0.693);
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: regular;
+                letter-spacing: 1px;
+
+}

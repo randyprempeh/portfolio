@@ -1,0 +1,35 @@
+
+.card {
+     background-image: url(./paint.jpeg); 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     width: 27%;
+     padding: 30px;
+     color: #fff;
+     
+      
+}
+
+.card2 {
+       color: #000;
+       background-image: url(./coffee.jpeg);
+       background-repeat: no-repeat;
+       background-position:  center;
+       width: 27%;
+       padding: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       margin-left: 30px;
+       box-shadow: 0 20px 100px #b8b8b8;
+       
+     
+       
+}
+.card2 h5 {
+           color: white;
+}

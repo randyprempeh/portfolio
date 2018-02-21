@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h5 {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 3px; }
+
+h2 {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-top: 20px; }
+
+p {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 1.5; }
+
+html * {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Berkshire Swash', cursive;
+  padding: 100px;
+  background-color: #fafafa; }
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 480px;
+  margin: 0 auto; }
+
+.card {
+  background-image: url(./paint.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 27%;
+  padding: 30px;
+  color: #fff; }
+
+.card2 {
+  color: #000;
+  background-image: url(./coffee.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 27%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 30px;
+  box-shadow: 0 20px 100px #b8b8b8; }
+
+.card2 h5 {
+  color: white; }

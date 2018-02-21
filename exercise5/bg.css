@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html * {
+        box-sizing: border-box;
+        
+}
+body {
+      background: #cccfd0;
+      padding: 100px;
+
+}
+.whole {
+        width: 800px;
+        background: white;
+        height: 750px;
+        margin: 0 auto;
+}
+header {
+        padding: 25px 45px;
+    
+}
+header img {
+            float: left;
+}
+nav {
+     float: right;
+    
+}
+nav ul {
+    
+}
+nav ul li {
+        list-style-type: none;
+        display: inline;
+        padding: 20px;        
+}
+nav a {
+       text-decoration: none;
+       color: #8a7e7e;
+       font-size: 10px;
+      
+}
+.section1 {
+
+           width: 500px;
+           margin:60px auto;
+         
+}
+h3 {
+        font-size: 20px;
+        font-weight: regular;
+        color: #8a7e7e;
+        line-height: 1.5;
+        font-family: Indie Flower, cursive;
+}
+p {
+        font-size: 9px;
+        font-weight: 600;
+        color: rgb(92, 92, 92);
+
+
+}
+p a {
+     color:white;
+     text-decoration: none;
+     padding: 4px;
+     background-color: black;
+}
+.section2 {
+           border:1px solid none;
+           
+          
+}
+h4 {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: white;
+    display: block;
+    margin: 50px;
+}
+.US {
+     
+     width: 250px;
+     height: 370px;
+     background-image: url(images/ny.jpg);
+     float: left;
+     margin-right: 25px;
+
+}
+.US img {
+         margin-top: 150px;
+         margin-left: 50px;
+         border-radius: 50%;
+         box-shadow: 0, 0, 20px, #c7b6b6;
+         
+}
+.EU {
+        width: 250px;
+        height: 370px; 
+        background-image: url(images/paris.jpg);
+        float: left;  
+        margin-right: 25px;  
+}
+.EU img {
+         margin-top: 180px;
+        margin-left: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #181414;
+
+}
+.AS { 
+        width: 250px;
+        height: 370px;
+        background-image: url(images/asia.jpg);
+        float: left;
+        margin-right: 0;
+        
+}
+.AS img {
+         margin-top: 180px;
+         margin-left: 50px;
+         border-radius: 50%;
+         box-shadow: 0 0 10px #181414;
+         
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

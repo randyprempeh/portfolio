@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+
+htnl * {
+        box-sizing: border-box;
+}
+body {
+    padding: 100px;
+    font-family: 'Paytone One', sans-serif;
+    background-color: pink;
+}
+.container {     
+    height: 840px;
+    background-color: white;
+}
+.row-header {
+            padding: 40px;
+}
+
+.row-text h1 {
+          padding: 50px;
+          font-size: 500%;
+          font-weight: 300;
+          letter-spacing: 4px;
+          
+}
+.row-para p {
+           font-size: 9px; 
+           line-height: 3;
+           color: rgb(158, 152, 152);
+           padding: 20px 0 20px 50px;
+           text-align: left;
+}
+.row-footer {
+            display: flex;
+            margin-top: 200px;
+            padding: 30px;
+          
+
+}
+.text-2 h3 {
+          font-size: 18px;
+          text-transform:  uppercase;
+        
+          
+
+}
+
+.bg-img {
+          background-image: url(boy.jpg);
+          background-size: cover;
+          background-position: center; 
+
+}
+
+.bg-img .row {
+    height: 100%;
+}
+
+.bg-img .row col {
+                background-color: rgba(15, 15, 15, 0.842);
+                opacity: 0.8;
+}
+.align-items-end {    
+            color: white;
+            padding: 10px;
+        
+}
+

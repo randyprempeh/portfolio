@@ -1,0 +1,99 @@
+body {
+      background: rgb(228, 178, 187);
+      padding: 300px;
+      
+}
+section {
+         display: block;
+         margin: 0 auto;
+         width: 560px;
+         
+    
+         
+}
+
+.card {
+       width: 250px;
+       float: left;
+       padding: 15px;
+       position: relative;
+       
+}
+
+.card-1 {
+         background: rgb(191, 191, 255);
+         color: #4c6370;
+         z-index: 1;
+}
+.card-2 {
+         background:  rgb(234, 243, 162);
+         color: #ae7831;
+         left: -50px;
+         top: -50px;
+         box-shadow:  -10px 0 40px #bcbceb;
+         z-index: 2;
+
+         
+}
+.time {
+       position: relative;
+}
+
+
+.card-1 .time {
+       border-top: 2px solid rgb(104, 128, 172);
+
+    }
+    .card-2 .time {
+        border-top: 2px solid rgb(240, 130, 72);
+    }
+    .card-1 .time::before {
+                           background: #7c8ebd;
+    }
+    .card-2 .time::before {
+        background: #ed8f55;
+    }
+
+.time::after {
+              content: "";
+              display: table;
+              clear: both;
+              
+}
+.left-time {
+            position: relative;
+            z-index: 2;
+            float: left;
+            margin: 0;
+            padding: 5px 0;
+
+
+     
+}
+.right-time {
+             float: right;
+             
+}
+.starting-time {
+                margin-top: 140px;
+
+}
+h3 {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+h6 { 
+
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+} 
+h6.sub {
+    margin-bottom: 140px;
+}
+p {
+    font-size: 10px;
+ }
